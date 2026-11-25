@@ -1,0 +1,13 @@
+{
+  "name": "AprovaPro — Estudos para concursos",
+  "short_name": "AprovaPro",
+  "description": "Sua plataforma de preparação para concursos públicos.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6fb",
+  "theme_color": "#14213d",
+  "icons": [
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
