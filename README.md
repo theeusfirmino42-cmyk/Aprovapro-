@@ -21,3 +21,12 @@ Depois abra `http://localhost:8000` no navegador. Em hospedagem, publique em um 
 
 ## Limitações importantes
 Este é um protótipo front-end. Indicadores e cronograma são dados de demonstração; o caderno de erros e os PDFs ainda não são sincronizados em nuvem. Não há login, banco de dados, questões reais, notificações push nem integração real com IA. Para produção, implementar API e banco de dados, autenticação, armazenamento seguro e integração de IA no servidor. Nunca colocar chaves secretas da IA no JavaScript do navegador.
+
+
+## Banco de Questões — versão 2
+- Banco inicial com 12 questões inéditas no estilo FGV, alinhadas ao conteúdo programático de Técnico em Mecânica do edital INB 2026.
+- Filtros por disciplina, assunto, origem e dificuldade.
+- Treino, simulado de até 10 questões, correção comentada e revisão de erros.
+- Histórico local no navegador (`localStorage`); ainda não sincroniza entre dispositivos.
+- Meta de expansão: 1.000 questões. Questões anteriores oficiais devem ser cadastradas com prova, ano, gabarito e fonte verificável; não estão incluídas nesta primeira versão.
+- O edital INB prevê quatro alternativas por questão objetiva para o nível médio/técnico.
